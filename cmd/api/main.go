@@ -37,7 +37,7 @@ func main() {
 	flag.Parse()
 
 	//connect to db
-	conn, err := app.connectToDb()
+	conn, err := app.connectToDB()
 	if err != nil {
 		log.Fatal(err)
 	}
